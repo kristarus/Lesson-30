@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#tableHead {
+  display: flex;
+}
+
+.tableHead_item {
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+}
+
+#tableBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableBody_item {
+  border: 1px solid black;
+  width: 25%;
+  padding: 10px;
+}
+
+.tableBody_user {
+  display: flex;
+}
