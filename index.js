@@ -89,7 +89,7 @@ const drawButtons = (numOfPages) => {
   }
 };
 
-//===========================EVENTS============================
+//===========================EVENTS=============================
 
 selectDisplay.addEventListener("click", (event) => {
   getUsers(switchbtnId);
